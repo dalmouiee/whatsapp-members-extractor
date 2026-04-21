@@ -1,0 +1,17 @@
+# Output data – never commit extracted numbers
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.mypy_cache/
+.pytest_cache/
+
+# Poetry / virtualenvs
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
